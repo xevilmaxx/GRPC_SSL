@@ -15,7 +15,7 @@ echo Generate CA key:
 openssl genrsa -passout pass:%password% -des3 -out ca.key %desLength%
 
 echo Generate CA certificate:
-openssl req -passin pass:%password% -new -x509 -days %certValidityDays% -key ca.key -out ca.crt -subj  "/C=IT/ST=MB/L=Monza/O=SwLink/OU=ParkO/CN=MyRootCA"
+openssl req -passin pass:%password% -new -x509 -days %certValidityDays% -key ca.key -out ca.crt -subj  "/C=IT/ST=MB/L=Monza/O=SwLink/OU=test/CN=MyRootCA"
 
 echo.
 echo.

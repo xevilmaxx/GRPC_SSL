@@ -139,5 +139,5 @@ Its ok for Client and Server, when you want connect through BloomRPC you will sp
 
 Once generated its enough just copy paste certificates across all microservices.
 
-![](images\BloomRPC_SSL_configuration.JPG)
+![](./images/BloomRPC_SSL_configuration.JPG?raw=true)
 

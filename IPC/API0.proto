@@ -1,0 +1,21 @@
+﻿syntax = "proto3";
+
+//import "Google/Protobuf/empty.proto";
+
+package API0_Protos;
+
+//service definition.
+service API0_Proto {
+    
+  rpc Method0 (Args) returns (Echo) {}
+
+}
+
+message Args{
+	string Arg0 = 1;
+	string Arg1 = 2;
+}
+
+message Echo{
+	string Answer = 1;
+}
